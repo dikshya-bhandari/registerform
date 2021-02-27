@@ -23,7 +23,7 @@ if(isset($_POST['done'])){
     }
 
 
-$sql = "UPDATE FORM SET id = $id , name='$name' , email='$email' , phonenumber='$phone' , password='$pass' , profile='$destfile' where id=$id";
+$sql = "UPDATE FORM SET  name='$name' , email='$email' , phonenumber='$phone' , password='$password' , profile='$destfile' where id=$id";
 
 $query=mysqli_query($conn , $sql);
 header('location:display.php');
@@ -44,7 +44,7 @@ header('location:display.php');
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <form action="insert.php" method="POST" enctype="multipart/form-data">
+    <form action=" " method="POST" enctype="multipart/form-data">
 
 
     <div class="header">

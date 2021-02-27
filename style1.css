@@ -1,3 +1,8 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
 table{
     border-collapse:collapse;
     border:1px solid black;
@@ -6,6 +11,7 @@ table tr th{
     border:1px solid black;
     padding:15px;
     width:100px;
+    background-color:rgb(124, 114, 114);
 }
 table tr td{
     border:1px solid black;

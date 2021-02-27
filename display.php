@@ -32,8 +32,8 @@
         <td><?php echo $result['email'];?></td>
         <td><?php echo $result['phonenumber'];?></td>
         <td><img src="<?php echo $result['profile'];?>" style="width:50px; height:50px;"></td>
-        <td><button><a href="delete.php?id=<?php echo $result['id']?>">DELETE</a></button>
-       <button> <a href="edit.php?id=<?php echo $result['id']?>">EDIT</a></button></td></tr>
+        <td><a href="delete.php?id=<?php echo $result['id']?>"><input type="button" value="DELETE" style="background-color:red; border-radius:3px; color:white;"></a>
+       <a href="edit.php?id=<?php echo $result['id']?>"><input type="button" value="EDIT" style="background-color:green; border-radius:3px; color:white;"></a></td></tr>
         <?php
     }
     ?>
