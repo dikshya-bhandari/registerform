@@ -1,0 +1,37 @@
+form{
+    text-align:center;
+    background-color:rgb(218, 205, 205);
+    height:500px;
+    width:500px;
+    margin-left:400px;
+    padding:50px;
+    border-radius:5px;
+}
+
+form .header input{
+    padding:6px;
+    background-color:blue;
+    color:white;
+    border-radius:5px;
+}
+
+form .container input{
+    width:400px;
+    height:30px;
+}
+
+form .profile label{
+    margin-right:290px;
+    font-size: 18px;
+}
+
+form .button input{
+    background-color:green;
+    padding:3px;
+    height:30px;
+    width:120px;
+    font-size:18px;
+    color:white;
+    border-radius:10px;
+}
+ 
