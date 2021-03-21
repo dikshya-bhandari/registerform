@@ -1,0 +1,232 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(241, 235, 235);
+}
+nav{
+    height:70px;
+    background-color:white;
+}
+
+nav .container .id{
+    display:inline-flex;
+    margin-left:80px;
+    
+}
+
+nav .container .id .id1{
+    font-size:42px;
+    color:rgb(29, 29, 134);
+    margin-top:12px;
+    
+
+}
+ 
+nav .container .id .search{
+    margin-left:12px;
+    margin-top:20px;
+}
+nav .container .id .search i{
+    font-size:20px;
+    position:absolute;
+    padding-left: 10px;
+    margin-top:3px;
+    
+
+}
+nav .container .id .search input{
+    height:30px;
+    width:250px;
+    padding-left:40px;
+    border-radius: 5px;
+    border: white;
+    
+
+}
+
+nav .container .id .search input::placeholder{
+    margin-left:10px;
+}
+
+nav .container .column{
+    display:inline-flex;
+    position:absolute;
+    margin-top:18px;
+    margin-left:80px;
+
+}
+
+nav .container .column .row .header i{
+    font-size: 25px;
+    color:rgb(82, 78, 78);
+}
+nav .container .column .row{
+    margin-left:20px;
+    text-align:center;
+    padding-left:15px;
+}
+
+.body{
+    /* background-color:pink; */
+    position:relative;
+    padding:0px;
+    
+}
+.body .div1 .div2{
+    display:inline-flex;
+}
+ .body .div1 .div2 .row .header{
+     background-color: white;
+    height:80px;
+    width:270px;
+    position:absolute;
+    margin-top:-400px;
+    border-radius:12px;
+    margin-left:20px;
+    padding:30px;
+ }
+
+ .body .div1 .div2 .row .header label{
+     font-weight:bold ;
+     color:gray;
+     font-size:16px;
+     text-align: center;
+ }
+ .body .div1 .div2 .row .header i{
+     margin-left:40px;
+ }
+
+ .body .div1 .div2 .row .footer{
+     position:absolute;
+     background-color: white;
+     height:220px;
+     width:320px;
+     margin-top:-240px;
+     margin-left:25px;
+     border-radius:10px;
+ }
+ .body .div1 .div2 .row .footer1{
+     
+     background-color:white;
+     border-radius:10px;
+     height:100px;
+     width:320px;
+     position:absolute;
+     margin-left:25px;
+     padding:15px;
+}
+.body .div1 .div2 .row .footer1 .label{
+ font-family: bold;
+}
+
+.body .div1 .div2 img{
+    height:400px;
+    width:800px;
+    margin-left:100px;
+    margin-top:50px;
+    border-radius:8px;
+    position: relative;
+
+    
+    
+
+    
+}
+.body .div1 .div3{
+    background-color:white;
+    height:300px;
+    width:800px;
+    margin-left:100px;
+    margin-top:-200px;
+    position: absolute;
+    border-radius:5px;
+}
+
+.body .div1 .div3 img{
+    height:140px;
+    width:140px;
+    border-radius: 50%;
+    position:absolute;
+    margin-top:-80px;
+    margin-left:30px;
+    border:5px solid white;
+    
+}
+
+.body .div1 .div3 .footer{
+
+    margin-top:90px;
+    margin-left:20px;
+    display: inline-flex;
+    
+}
+.body .div1 .div3 .footer .row i{
+    padding:5px;
+    margin-left:300px;
+    font-size: 20px;
+}
+.body .div1 .div3 .footer .row i label{
+    margin-left:10px;
+}
+
+.body .div1 .div3 .footer1{
+    padding:18px;
+    font-size:18px;
+    display:inline-flex;
+}
+
+.body .div1 .div3 .footer1 .row i{
+    margin-left:49px;
+
+}
+.body .div1 .div3 .footer1 .row i label{
+    margin-left:10px;
+    font-size: 20px;
+}
+.body .div1 .div3 .footer1 label{
+    color:gray;
+}
+.body .div1 .div3 .footer1 span{
+    color:blue;
+    font-weight: bold;
+}
+.body .div1 .div3 .footer2{
+    padding-left:20px;
+    margin-top:5px;
+}
+
+.body .div1 .div3 .footer2 label{
+    border-radius: 15px;
+    border:2px solid gray;
+    padding:8px;
+    padding-left: 10px;
+    color:gray;
+    padding-left: 15px;
+    font-size:18px;
+    padding-right:15px;
+}
+
+.body .div1 .div3 .footer3{
+ border:2px dashed gray;
+ border-radius:5px;
+ margin-top:30px;
+ width:720px;
+ padding:8px;
+ margin-left:20px;
+}
+
+.body .div1 .div3 .footer3 label{
+    font-size: 18px;
+}
+.body .div1 .div3 .footer3 label span{
+    color:blue;
+
+}
+.body .div1 .div3 .footer3 label i{
+    margin-left:300px;
+}
+
+
+
+
+

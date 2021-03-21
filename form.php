@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <form action="insert.php" method="POST" enctype="multipart/form-data">
+    <form action="main.html" method="POST" enctype="multipart/form-data">
 
 
     <div class="header">
@@ -28,7 +28,7 @@
     </div>
 
     <div class="button">
-    <input type="submit"  name="done" id="submit" value="SignUp">
+  <a href="main.html" > <input type="submit"  name="done" id="submit" value="SignUp"></a>
 
 </form>
 </body>
